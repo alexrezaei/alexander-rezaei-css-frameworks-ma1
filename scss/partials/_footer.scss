@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 92px;
+  justify-content: center;
+  margin-top: 205px;
+
+  p {
+    margin: 0;
+  }
+  p:first-child {
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: 1280px) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 227px;
+    padding-left: 75px;
+    padding-right: 65px;
+  }
+}
